@@ -40,7 +40,20 @@ public class Task {
 
     void task2 ()
     {
+        double U;
+        int k, y;
 
+        System.out.print("Enter the k: ");
+        k = input.nextInt();
+        System.out.println();
+
+        System.out.print("Enter the y: ");
+        y = input.nextInt();
+        System.out.println();
+
+        U = (Math.log10(k - y) + Math.pow(y, 4)) / (Math.pow(Math.E, y) + 2.355 * Math.pow(k, 2));
+
+        System.out.println("U is " + U);
     }
 
     void task3 ()
